@@ -26,12 +26,21 @@
         android:layout_height="match_parent"
         mapbox:mapbox_cameraTargetLat = "12.9716"
         mapbox:mapbox_cameraTargetLng = "77.5946"
-        mapbox:mapbox_cameraZoom="12"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        mapbox:mapbox_styleUrl="@string/mapbox_style_satellite"/>
+        mapbox:mapbox_cameraZoom="16"
+        mapbox:mapbox_styleUrl="@string/mapbox_style_satellite_streets"/>
+
+<!--    <com.mapbox.mapboxsdk.maps.MapView-->
+<!--        android:id="@+id/mapView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        mapbox:mapbox_cameraTargetLat = "12.9716"-->
+<!--        mapbox:mapbox_cameraTargetLng = "77.5946"-->
+<!--        mapbox:mapbox_cameraZoom="32"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        mapbox:mapbox_styleUrl="@string/mapbox_style_satellite"/>-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
