@@ -4,8 +4,9 @@ buildscript {
         google()
         jcenter()
         mavenCentral()
+        maven { url 'https://mapbox.bintray.com/mapbox' }
 
-//        maven { url "http://oss.sonatype.org/content/repositories/snapshots/" }
+        maven { url "http://oss.sonatype.org/content/repositories/snapshots/" }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.0.0"
